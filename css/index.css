@@ -41,7 +41,7 @@ nav{
 
 /* Div1 */
 #blocoUm{
-    display:flex;max-width:auto;height:500px;flex-wrap: wrap;justify-content: center;align-items: center;
+    display:flex;max-width:auto;height:500px;flex-wrap: wrap;justify-content: center;align-items: center;gap:20px;
     background:red;overflow: hidden;
 }
 #Brasil{
