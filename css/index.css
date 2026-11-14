@@ -13,6 +13,9 @@ header{
     justify-content: center; align-items: center;display:flex;width:100;max-width:200px;height:90px;margin-top:5px;gap:20px;width:200px;
     background:gray;border-radius: 15px;
 }
+.icon:hover{
+    opacity: 0.8;background: white;padding:5px;border-radius:15px;
+}
 /* NAV */
 nav{
     display:flex;width:100%;height:200px;
@@ -26,4 +29,39 @@ nav{
 .c1{color:black;}
 .c2{
     background:rgb(235, 97, 120);padding:20px;border-radius:15px;overflow: hidden;
+}
+.c2:hover, .c1:hover{
+    opacity:0.8;cursor: pointer;
+}
+@media (max-width:640px){
+    .c2{
+        display: none;
+    }
+}
+
+/* Div1 */
+#blocoUm{
+    display:flex;max-width:auto;height:500px;flex-wrap: wrap;justify-content: center;align-items: center;
+    background:red;overflow: hidden;
+}
+#Brasil{
+    display: flex;width:100%;max-width:250px;height:300px;
+}
+.b1{
+    display:flex;flex-flow:column;justify-items: center;align-items: center;width: 100%;max-width:250px;height:300px;
+}
+.Titulo1{
+    font:800;font-family: Arial, Helvetica, sans-serif;color:white;
+}
+.Titulo2{
+    font-family: Arial, Helvetica, sans-serif;color:white;
+}
+#titulofinal{
+    flex-basis: 100%;
+    text-align: center;color:black;font-size:smaller;
+}
+@media (max-width:840px){
+    #Brasil{
+        display: none;
+    }
 }
